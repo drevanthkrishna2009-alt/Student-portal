@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d9f5d9;   /* light green */
+  color: #111111;              /* dark text so it is easy to read */
+  margin: 0;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #1a237e;   /* dark blue */
+  color: white;
+  padding: 15px 30px;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+}
+
+nav a {
+  color: #ffeb3b;              /* yellow links */
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px 30px;
+}
+
+h2 {
+  color: #1a237e;
+}
+
+article {
+  background-color: white;
+  border-left: 6px solid #1a237e;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+form {
+  background-color: white;
+  padding: 15px;
+  max-width: 500px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+fieldset {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #1a237e;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d1257;
+}
+
+/* shows a clear outline when using keyboard (Tab key) */
+a:focus, input:focus, select:focus, textarea:focus, button:focus {
+  outline: 3px solid #ff6f00;
+}
+
+aside {
+  background-color: white;
+  margin: 0 30px 20px 30px;
+  padding: 10px 15px;
+  max-width: 500px;
+}
+
+footer {
+  background-color: #1a237e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
